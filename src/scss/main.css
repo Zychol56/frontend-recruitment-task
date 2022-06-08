@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+html, body {
+  margin: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.recruitment-module {
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 90px auto;
+}
+
+.recruitment-module figure {
+  width: 50%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.recruitment-module .content {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 90px;
+}
+
+.recruitment-module .content h1 {
+  font-size: 42px;
+  font-weight: 700;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.recruitment-module .content p {
+  width: 60%;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  line-height: 24px;
+}
+
+.recruitment-module .content a {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  background-color: #E4C1AE;
+  padding: 16px 40px;
+  border-radius: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 48px;
+}
+
+.popupContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(18, 18, 18, 0.5);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popupContainer .popupBox {
+  width: 880px;
+  height: 210px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+.popupContainer .popupBox h2 {
+  font-size: 42px;
+  font-weight: 700;
+  padding-left: 95px;
+  margin: 0;
+}
+
+.popupContainer .popupBox p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 95px;
+  margin-top: 24px;
+}
+
+.popupContainer .popupBox .closeBtn {
+  position: absolute;
+  top: 46px;
+  right: 46px;
+}
+
+.popupContainer .popupBox .closeBtn:after {
+  display: inline-block;
+  content: "\00d7";
+  font-size: 32px;
+  color: #121212;
+  font-weight: 300;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

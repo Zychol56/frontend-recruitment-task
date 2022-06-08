@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+$dark: #121212;
+$primary: #E4C1AE;
+$white: #fff;
+$dark-overlay: rgba(18, 18, 18, 0.5);
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: Roboto, sans-serif;
+}
+html, body{
+    margin:0;
+
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+.recruitment-module{
+    width: 1440px;
+    display: flex;
+    margin: 90px auto;
+    figure{
+        width: 50%;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 90px;
+        h1{
+            font-size: 42px;
+            font-weight: 700;
+            width: max-content;
+        }
+        p{
+            width: 60%;
+            font-weight: 300;
+            font-size: 16px;
+            margin:0;
+            line-height: 24px;
+        }
+        a{
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            color: $white;
+            text-decoration: none;
+            background-color: $primary;
+            padding: 16px 40px;
+            border-radius: 50px;
+            width: max-content;
+            margin-top: 48px;
+        }
+    }
+}
+.popupContainer{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background-color: $dark-overlay;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .popupBox{
+        width: 880px;
+        height: 210px;
+        position: absolute;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        background-color: $white;
+        h2{
+            font-size: 42px;
+            font-weight: 700;
+            padding-left: 95px;
+            margin: 0;
+        }
+        p{
+            font-weight: 300;
+            font-size: 16px;
+            padding-left: 95px;
+            margin-top: 24px;
+        }
+        .closeBtn{
+            position: absolute;
+            top: 46px;
+            right: 46px;
+        }
+        .closeBtn:after{
+            display: inline-block;
+            content: "\00d7";
+            font-size: 32px;
+            color: $dark;
+            font-weight: 300;
+        }
+
+    }
+}
+.show{
+    display: flex;
+}
