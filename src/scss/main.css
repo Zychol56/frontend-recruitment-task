@@ -205,6 +205,24 @@ button {
   display: flex;
 }
 
+table, th, td {
+  border: 1px solid;
+}
+
+.showBttn {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #E4C1AE;
+  padding: 16px 40px;
+  border-radius: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 20px auto;
+}
+
 @media only screen and (max-width: 1480px) {
   .recruitment-module {
     width: 992px;

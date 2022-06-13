@@ -158,9 +158,21 @@ button {
 }
 
 
+table, th, td {
+    border: 1px solid;
+}
 
-
-
+.showBttn{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white;
+    background-color: $primary;
+    padding: 16px 40px;
+    border-radius: 50px;
+    width: max-content;
+    margin: 20px auto;
+}
 
 
 @media only screen and (max-width: 1480px) {
